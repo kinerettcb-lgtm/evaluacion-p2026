@@ -23,3 +23,74 @@ img {
 body {
   font-size: 1.6rem;
 }
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.header{
+  padding: 0  50px;
+ }
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem;
+  background-color:#ffffff ;
+}
+.nav_logo{
+  height: 1.6rem;
+  color: #1a1a1a;
+  
+}
+.nav_links{
+  display: flex;
+  gap: 30px;
+}
+.nav_links a{
+color: #555555;
+
+}
+.hero{
+  background-color: #000000;
+  padding: 6.4rem  6.4rem;
+  
+}
+.texto_pieza{
+  color: #c0392b;
+  
+}
+.texto_sabor{
+  color: #ffffff;
+  
+}
+.tag{
+  color: #888888;
+}
+
+.btn--primery{
+   background-color:#c0392b ;
+   color:#ffffff ;
+   padding: 1rem  2.4rem;
+   border-radius: 0.6rem; 
+   display:inline-block;
+}
+.section_head{
+  text-align: left;
+  margin-bottom: ;
+}
+.card{
+  flex: 1;
+  border-radius: 1;
+
+ 
+}
+.cards{
+  display: flex;
+  gap: 24px;
+  flex: 1;
+}
+.imagen{
+  height: 20rem;
+}
