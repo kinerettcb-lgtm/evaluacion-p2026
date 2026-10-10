@@ -1,6 +1,6 @@
 /* =====================================================
-   styles.css — TAWENO SUSHI
-   Completa los estilos según el mockup adjunto
+  styles.css — TAWENO SUSHI
+  Completa los estilos según el mockup adjunto
    ===================================================== */
 
 /* Reset base */
@@ -31,7 +31,7 @@ ul{
 }
 .header{
   padding: 0  50px;
- }
+}
 .nav{
   display: flex;
   justify-content: space-between;
@@ -70,21 +70,20 @@ color: #555555;
 }
 
 .btn--primery{
-   background-color:#c0392b ;
-   color:#ffffff ;
-   padding: 1rem  2.4rem;
-   border-radius: 0.6rem; 
-   display:inline-block;
+  background-color:#c0392b ;
+  color:#ffffff ;
+  padding: 1rem  2.4rem;
+  border-radius: 0.6rem; 
+  display:inline-block;
 }
 .section_head{
   text-align: left;
-  margin-bottom: ;
+  
 }
 .card{
   flex: 1;
   border-radius: 1;
 
- 
 }
 .cards{
   display: flex;
@@ -94,3 +93,298 @@ color: #555555;
 .imagen{
   height: 20rem;
 }
+
+.menu_container {
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+}
+.menu_container h2 {
+  margin: 0 0 2.8rem;
+  font-size: 2.6rem;
+}
+.card {
+  padding: 0;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__body {
+  padding: 1.6rem;
+}
+
+.card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.8rem;
+}
+
+.card p {
+  margin: 0 0 0.8rem;
+  font-size: 1.4rem;
+  color: #555555;
+}
+
+.card span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #c0392b;
+}
+.top {
+  display: flex;
+  gap: 4.8rem;
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+}
+
+.topinfo {
+  flex: 0 0 30%;
+}
+
+.topinfo h2 {
+  margin: 0 0 1.6rem;
+  font-size: 2.6rem;
+}
+
+.topinfo p {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #555555;
+}
+
+.toplist {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.toplist li {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 1.2rem 0;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.toplist img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+.topname {
+  margin-right: auto;
+}
+
+.topprice {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #c0392b;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+}
+
+.abouttext,
+.stats {
+  width: 45%;
+}
+
+.abouttext h2 {
+  margin: 0 0 1.6rem;
+  font-size: 2.6rem;
+}
+
+.abouttext p {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #555555;
+}
+
+.stats {
+  display: flex;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+}
+
+.stat {
+  flex: 1;
+  padding: 2.4rem 1.6rem;
+  text-align: center;
+}
+
+.statnumber {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.stat small {
+  display: block;
+  font-size: 1.3rem;
+  color: #555555;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+}
+
+.contactinfo {
+  width: 40%;
+}
+
+.contactinfo h2 {
+  margin: 0 0 1.6rem;
+  font-size: 2.6rem;
+}
+
+.contactinfo p,
+.contactinfo li {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+  color: #555555;
+}
+
+.contactcard {
+  width: 50%;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  padding: 2.4rem;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 1.4rem;
+  color: #555555;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.6rem;
+  padding: 1rem;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 0.6rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+
+.form .formbtn {
+  width: 100%;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #c0392b;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.footer {
+  background-color: #111111;
+  padding: 3.6rem 3.2rem 2rem;
+}
+
+.footertop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+
+.footerbrand {
+  width: 40%;
+}
+
+.footer h3 {
+  margin: 0 0 0.8rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.footer h4 {
+  margin: 0 0 0.8rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.footer p,
+.footer li {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #888888;
+}
+
+.footercopy {
+  padding-top: 1.6rem;
+  border-top: 0.1rem solid #222222;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+}
+
+.abouttext,
+.stats {
+  width: 45%;
+}
+
+.abouttext h2 {
+  margin: 0 0 1.6rem;
+  font-size: 2.6rem;
+}
+
+.abouttext p {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #555555;
+}
+
+.stats {
+  display: flex;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+}
+
+.stat {
+  flex: 1;
+  padding: 2.4rem 1.6rem;
+  text-align: center;
+}
+
+.stat__number {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.stat small {
+  display: block;
+  font-size: 1.3rem;
+  color: #555555;
+}
+
