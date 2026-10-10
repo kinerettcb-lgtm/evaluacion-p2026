@@ -16,51 +16,61 @@
 <body>
 
   <!-- ===================== INICIO HEADER ===================== -->
-
-  <nav>
-    <a href="#">TAWENO SUSHI</a>
-    <ul>
+<header class="header">
+  <nav class="nav">
+    <a href="#" class="nav_logo">TAWENO SUSHI</a>
+    <ul class="nav_links">
       <li><a href="#">Inicio</a></li>
       <li><a href="#">Menú</a></li>
       <li><a href="#">Nosotros</a></li>
       <li><a href="#">Contacto</a></li>
     </ul>
   </nav>
-
-  <h1>Sabor japonés<br><span>en cada pieza</span></h1>
-  <p>Ingredientes frescos del día. Tradición y técnica en cada preparación.</p>
-  <a href="#">Ver menú</a>
+</header>
+  <section class="hero">
+    <div class="texto_sabor">
+      <h1 >Sabor japonés<br><span class="texto_pieza">en cada pieza</span></h1>
+      <p class="tag">Ingredientes frescos del día. Tradición y técnica en cada preparación.</p>
+      <a href="#" class="btn--primery">Ver menú</a>
+    </div>
+  </section>
 
   <!-- ===================== FIN HEADER ===================== -->
 
 
   <!-- ===================== INICIO NUESTRO MENÚ ===================== -->
+<main>
+   <div class="section_head">
+      <h2>Nuestro menú</h2></div>
 
-  <h2>Nuestro menú</h2>
+    <div class="cards">
+      <article class="card">
+      <img src="" class="imagen" alt="Nigiri Salmón">
+      <h3>Nigiri Salmón</h3>
+      <p>Arroz con salmón fresco y wasabi.</p>
+      <span>$4.990</span>
+    </article>
 
-  <img src="#" alt="Nigiri Salmón">
-  <h3>Nigiri Salmón</h3>
-  <p>Arroz con salmón fresco y wasabi.</p>
-  <span>$4.990</span>
+      <img src="" class="imagen" alt="Roll Spicy Tuna">
+      <h3>Roll Spicy Tuna</h3>
+      <p>Atún, pepino, palta y sésamo.</p>
+      <span>$6.490</span>
 
-  <img src="#" alt="Roll Spicy Tuna">
-  <h3>Roll Spicy Tuna</h3>
-  <p>Atún, pepino, palta y sésamo.</p>
-  <span>$6.490</span>
-
-  <img src="#" alt="Tempura Roll">
-  <h3>Tempura Roll</h3>
-  <p>Camarón tempura y salsa teriyaki.</p>
-  <span>$6.990</span>
+      <img src=""  class="imagen" alt="Tempura Roll">
+      <h3>Tempura Roll</h3>
+      <p>Camarón tempura y salsa teriyaki.</p>
+      <span>$6.990</span>
+   </div>
+  </section>
 
   <!-- ===================== FIN NUESTRO MENÚ ===================== -->
 
 
   <!-- ===================== INICIO LOS MÁS PEDIDOS ===================== -->
-
+ 
   <h2>Los más pedidos</h2>
   <p>Los platos que nuestros clientes eligen semana a semana.</p>
-
+ 
   <ul>
     <li>
       <img src="#" alt="Nigiri Salmón">
@@ -78,6 +88,7 @@
       <span>$6.990</span>
     </li>
   </ul>
+
 
   <!-- ===================== FIN LOS MÁS PEDIDOS ===================== -->
 
@@ -118,7 +129,7 @@
 
     <button type="submit">Enviar</button>
   </form>
-
+</main>
   <!-- ===================== FIN CONTACTO ===================== -->
 
 
